@@ -1,0 +1,54 @@
+/*
+selector {
+     rule: value;
+}
+*/
+
+/* .class */
+.welcome {
+     color: #0ecc60;
+     /* rule: value; */
+     background: black;
+     text-align: center;
+     width: fit-content;
+     padding: 20px;
+     border-radius: 5px;
+}
+
+/* element */
+body {
+     margin: 0;
+     background: #131313;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     /* start center end */
+     justify-content: center;
+     /* start center end space-between space-around space-evenly */
+}
+
+* {
+     margin: 12px;
+}
+
+.welcome-photo {
+     height: 276px;
+     width: 361px;
+}
+
+.square {
+     height: 64px;
+     width: 64px;
+     background: white;
+     border-radius: 4px;
+}
+
+.square-container {
+     display: flex;
+     width: 100%;
+     background: blueviolet;
+     height: 512px;
+     align-items: center;
+     justify-content: space-around;
+}
