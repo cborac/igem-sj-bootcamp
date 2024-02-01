@@ -13,6 +13,9 @@
      <img class="welcome-photo" src="https://upload.wikimedia.org/wikipedia/en/d/d6/IGEM_official_logo.png">
      <h1 class="welcome">iGEM'e hoş geldiniz!</h1>
 
+     <h1 id="counter">Clicked 0 times</h1>
+     <button onclick="buttonClick()">Click me</button>
+
      <div>
           <h2>iGEM Nedir?</h2>
           <p>iGEM uluslararası bir sentetik biyoloji yarışmasıdır.<br>Burada yüzlerce okul sentetik biyoloji projesi geliştirir
@@ -34,6 +37,14 @@
           <div class="square"></div>
           <div class="square"></div>
      </div>
+
+     <script>
+          let count = 0;
+
+          function buttonClick() {
+               document.querySelector("#counter").innerHTML = "Clicked " + ++count + " times"
+          }
+     </script>
 </body>
 
 </html>
